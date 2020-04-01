@@ -1,0 +1,13 @@
+@import "../flare/sass/components/header";
+@import "../flare/sass/tokens/space";
+
+@import "tokens/colors";
+@import "tokens/text";
+
+@import "tokens/header";
+@import "tokens/navigation";
+
+
+$page-background-color: $subtle-gray;
+
+$hero-message-place: end left;
