@@ -1,0 +1,24 @@
+@import "../tokens/screen";
+@import "../tokens/space";
+
+
+// Columns
+$column-width-xxsmall:   calc(100% - #{$gutter} * 2);
+$column-width-xsmall:    calc(100% - #{$gutter} * 2);
+$column-width-small:     calc(100% - #{$gutter} * 2);
+$column-width-medium:    calc(100% - #{$gutter} * 2);
+$column-width-large:     ($breakpoint-large - $gutter * 2);
+$column-width-xlarge:    ($breakpoint-xlarge - $gutter * 2);
+$column-width-xxlarge:   ($breakpoint-xlarge - $gutter * 2);
+$column-width-xxxlarge:  ($breakpoint-xxlarge - $gutter * 2);
+
+
+// Columns
+$slim-column-width-xxsmall:   100%;
+$slim-column-width-xsmall:    100%;
+$slim-column-width-small:     100%;
+$slim-column-width-medium:    100%;
+$slim-column-width-large:     $breakpoint-large / $golden-ratio;
+$slim-column-width-xlarge:    $breakpoint-xlarge / $golden-ratio;
+$slim-column-width-xxlarge:   $breakpoint-xlarge / $golden-ratio;
+$slim-column-width-xxxlarge:  $breakpoint-xxlarge / $golden-ratio;

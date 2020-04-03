@@ -1,0 +1,31 @@
+@import "reset";
+
+@import "tokens/text";
+@import "text";
+
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: $base-size;
+  height: 100%;
+}
+
+body {
+  font-family: $text-font;
+  height: 100%;
+}
+
+
+.heart {
+  color: #FF0049 !important;
+}

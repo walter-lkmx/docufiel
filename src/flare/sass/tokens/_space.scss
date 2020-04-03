@@ -1,0 +1,22 @@
+$golden-ratio: 1.61803398875;
+
+$gutter: 16px !default;
+$gutter-large:    $gutter * $golden-ratio !default;
+$gutter-xlarge:   $gutter-large * $golden-ratio !default;
+$gutter-xxlarge:  $gutter-xlarge * $golden-ratio !default;
+$gutter-xxxlarge: $gutter-xxlarge * $golden-ratio !default;
+
+$gutter-small:   $gutter / $golden-ratio !default;
+$gutter-xsmall:  $gutter-small / $golden-ratio !default;
+$gutter-xxsmall: $gutter-xsmall / $golden-ratio !default;
+
+
+$radius: $gutter !default;
+$radius-large:    $radius * $golden-ratio !default;
+$radius-xlarge:   $radius-large * $golden-ratio !default;
+$radius-xxlarge:  $radius-xlarge * $golden-ratio !default;
+$radius-xxxlarge: $radius-xxlarge * $golden-ratio !default;
+
+$radius-small:   $radius / $golden-ratio !default;
+$radius-xsmall:  $radius-small / $golden-ratio !default;
+$radius-xxsmall: $radius-xsmall / $golden-ratio !default;

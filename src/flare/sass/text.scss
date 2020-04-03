@@ -1,0 +1,105 @@
+@import "functions/rem";
+
+@import "tokens/screen";
+@import "tokens/text";
+
+@mixin text-style($text-size, $text-font, $text-weight, $text-color, $text-line, $text-margin) {
+  font-size: $text-size;
+  font-family: $text-font;
+  font-weight: $text-weight;
+  color: $text-color;
+  line-height: $text-line;
+  margin: $text-margin;
+}
+
+::selection {
+  background: $text-selection-color;
+}
+::-moz-selection {
+  background: $text-selection-color; /* Gecko Browsers */
+}
+
+html {
+  font-family: $text-font;
+  font-size: $base-size;
+}
+
+body {
+  font-family: $base-size;
+}
+
+
+main {
+  h1, h2, h3, h4, h5, h6 {
+    @include text-style($base-size, $headers-default-font, $headers-default-weight, $headers-default-color,
+            $headers-default-line, $headers-default-margin);
+  }
+
+  h1 {
+    @include text-style($h1-text-size, $h1-text-font, $h1-text-weight, $h1-text-color,
+            $h1-text-line-height, $h1-text-margin);
+  }
+
+  h2 {
+    @include text-style($h2-text-size, $h2-text-font, $h2-text-weight, $h2-text-color,
+            $h2-text-line-height, $h2-text-margin);
+  }
+
+  h3 {
+    @include text-style($h3-text-size, $h3-text-font, $h3-text-weight, $h3-text-color,
+            $h3-text-line-height, $h3-text-margin);
+  }
+
+  h4 {
+    @include text-style($h4-text-size, $h4-text-font, $h4-text-weight, $h4-text-color,
+            $h4-text-line-height, $h4-text-margin);
+  }
+
+  h5 {
+    @include text-style($h5-text-size, $h5-text-font, $h5-text-weight, $h5-text-color,
+            $h5-text-line-height, $h5-text-margin);
+  }
+
+  h6 {
+    @include text-style($h6-text-size, $h6-text-font, $h6-text-weight, $h6-text-color,
+            $h6-text-line-height, $h6-text-margin);
+  }
+
+  p {
+    margin-bottom: $gutter-large;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  p, li {
+    line-height: $paragraph-line-height;
+  }
+
+  a {
+    color: $links-text-color;
+
+    &:hover {
+      color: $links-text-hover-color;
+    }
+  }
+
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+}

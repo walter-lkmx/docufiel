@@ -1,0 +1,76 @@
+@import "space";
+
+// Text tokens
+
+// Text selection color
+$text-selection-color: black !default;
+
+// Fonts
+$text-font: "Inter", "Arial", sans-serif !default;
+
+
+// Paragraphs
+$paragraph-default-color: black !default;
+$paragraph-default-line: 1em !default;
+$paragraph-margin: 0 0 $gutter 0 !default;
+$paragraph-line-height: 1.5em !default;
+
+$links-text-color: default !default;
+$links-text-hover-color: blue !default;
+
+// Header
+// Default values
+$headers-default-font: "Inter", "Arial", sans-serif !default;
+$headers-default-weight: 500 !default;
+$headers-default-color: black !default;
+$headers-default-line: 1em !default;
+$headers-default-margin: 0 0 $gutter 0 !default;
+
+// H1
+$h1-text-size: 24px !default;
+$h1-text-font: $headers-default-font !default;
+$h1-text-weight: $headers-default-weight !default;
+$h1-text-color: $headers-default-color !default;
+$h1-text-line-height: $headers-default-line !default;
+$h1-text-margin: $headers-default-margin !default;
+
+// H2
+$h2-text-size: 21px !default;
+$h2-text-font: $headers-default-font !default;
+$h2-text-weight: $headers-default-weight !default;
+$h2-text-color: $headers-default-color !default;
+$h2-text-line-height: $headers-default-line !default;
+$h2-text-margin: $headers-default-margin !default;
+
+// H3
+$h3-text-size: 18px !default;
+$h3-text-font: $headers-default-font !default;
+$h3-text-weight: $headers-default-weight !default;
+$h3-text-color: $headers-default-color !default;
+$h3-text-line-height: $headers-default-line !default;
+$h3-text-margin: $headers-default-margin !default;
+
+// H4
+$h4-text-size: 18px !default;
+$h4-text-font: $headers-default-font !default;
+$h4-text-weight: $headers-default-weight !default;
+$h4-text-color: $headers-default-color !default;
+$h4-text-line-height: $headers-default-line !default;
+$h4-text-margin: $headers-default-margin !default;
+
+// H5
+$h5-text-size: 18px !default;
+$h5-text-font: $headers-default-font !default;
+$h5-text-weight: $headers-default-weight !default;
+$h5-text-color: $headers-default-color !default;
+$h5-text-line-height: $headers-default-line !default;
+$h5-text-margin: $headers-default-margin !default;
+
+// H6
+$h6-text-size: 18px !default;
+$h6-text-font: $headers-default-font !default;
+$h6-text-weight: $headers-default-weight !default;
+$h6-text-color: $headers-default-color !default;
+$h6-text-line-height: $headers-default-line !default;
+$h6-text-margin: $headers-default-margin !default;
+

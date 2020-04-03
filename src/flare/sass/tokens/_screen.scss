@@ -1,0 +1,14 @@
+// Screen guidelines
+
+// Base size
+$base-size: 16px !default;
+
+// Breakpoints
+$breakpoint-xxsmall:   320px !default;     // xxsmall    0px   - 399px
+$breakpoint-xsmall:    375px !default;     // xsmall     400px - 575px
+$breakpoint-small:     414px !default;     // small      414px - 767px
+$breakpoint-medium:    768px !default;     // medium     768px - 991px
+$breakpoint-large:    1008px !default;     // large      992px - 1199px
+$breakpoint-xlarge:   1200px !default;     // xlarge     1200px - 1599px
+$breakpoint-xxlarge:  1600px !default;     // xxlarge    1600px - 2559px
+$breakpoint-xxxlarge: 2560px !default;     // xxxlarge   2560px - infinito

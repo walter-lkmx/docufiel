@@ -1,0 +1,38 @@
+@import "../functions/rem";
+@import "../functions/responsive";
+
+
+// Areas per device
+$hero-mobile-areas:  "cover"
+                     "message"             !default;
+$hero-tablet-areas:  "message cover"     !default;
+$hero-desktop-areas: "message cover"     !default;
+
+
+// Heights per device
+$hero-mobile-height:  auto      !default;
+$hero-tablet-height:  auto       !default;
+$hero-desktop-height: 500px      !default;
+
+
+
+// Rows and columns per device
+$hero-mobile-columns: 100%              !default;
+$hero-tablet-columns: rem(420px) auto   !default;
+$hero-desktop-columns: rem(420px) auto  !default;
+
+$hero-mobile-rows: rem(150px) auto  !default;
+$hero-tablet-rows: 100%               !default;
+$hero-desktop-rows: 100%              !default;
+
+
+// Positioning
+$hero-message-place: start left  !default;
+$hero-cover-place: center right  !default;
+
+
+// Misc
+$hero-mobile-margin: $gutter      !default;
+$hero-tablet-margin: $gutter-large      !default;
+$hero-desktop-margin: $gutter-large      !default;
+
