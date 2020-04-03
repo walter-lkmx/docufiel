@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "key":  "digitalizacion-documentos",
+      "name": "Digitalización de documentos",
+      "link": "/digitalizacion-documentos"
+    },
+    {
+      "key":  "valuacion-activos",
+      "name": "Valuación de activos",
+      "link": "/valuacion-activos"
+    },
+    {
+      "key":  "inventario-activos",
+      "name": "Inventario de activos",
+      "link": "/inventario-activos"
+    }
+  ]
+}

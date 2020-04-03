@@ -11,7 +11,7 @@ function addStyleResource (rule) {
     .loader('style-resources-loader')
     .options({
       patterns: [
-        path.resolve(__dirname, './src/sass/_tokens.scss'),
+        path.resolve(__dirname, './src/sass/**/*.scss'),
         path.resolve(__dirname, './src/flare/sass/functions/**/*.scss'),
         path.resolve(__dirname, './src/flare/sass/tokens/**/*.scss'),
         path.resolve(__dirname, './src/flare/sass/components/**/*.scss'),
@@ -20,18 +20,24 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Docufiel',
   plugins: [
     {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Content',
         baseDir: './content',
-        pathPrefix: '/content',
-        template: './src/templates/Content.vue'
+        pathPrefix: '/',
+        template: './src/templates/WebPage.vue',
       }
     }
   ],
+  transformers: {
+    remark: {
+      autolinkHeadings: false,
+    }
+  },
+
   chainWebpack(config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];

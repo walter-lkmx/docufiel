@@ -1,27 +1,7 @@
 // First it loads the application tokens so the variables aren't overwritten by the flare tokens
 @import "tokens";
-// // Then it loads the whole thing
+// Then it loads the whole thing
 @import "../flare/sass/flare";
-
-* {
-  box-sizing: border-box;
-}
-
-
-html {
-  font-size: 16px;
-  height: 100%;
-}
-
-body {
-  // font-family: $text-font;
-  height: 100%;
-  background: pink;
-  transition: 1s ease;
-  &:hover {
-    background: green;
-  }
-}
 
 h1 {
   text-transform: uppercase;
@@ -29,4 +9,9 @@ h1 {
 
 a {
   font-weight: bold;
+}
+
+li {
+  list-style-type: circle;
+  margin-bottom: rem(16px);
 }

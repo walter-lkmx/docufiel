@@ -1,5 +1,30 @@
 $covidsos-green-color: #05A034;
 $covidsos-light-green-color: #0FC045;
-$medium-gray-color: #7A8B7F;
-$light-gray-color: #828282;
+$medium-gray-color: #496665;
+$light-gray-color: #C9D7D7;
 $subtle-gray: #F4F4F4;
+
+$docufiel-green-color: #34dcb7;
+$docufiel-light-green-color: #00f8c2;
+$docufiel-gray-color: #6d6d6d;
+$docufiel-blue-color: #182d46;
+
+$purple-color: #6518A3;
+$aqua-color: #05EBE1;
+$yellow-color: #F8BF00;
+$red-color: #EA4200;
+
+$draft-contrast-color: white;
+$draft-status-color: $purple-color;
+
+$working-contrast-color: black;
+$working-status-color: $aqua-color;
+
+$reviewed-contrast-color: black;
+$reviewed-status-color: $yellow-color;
+
+$certified-contrast-color: black;
+$certified-status-color: $covidsos-light-green-color;
+
+$obsolete-contrast-color: white;
+$obsolete-status-color: $red-color;
