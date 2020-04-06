@@ -76,6 +76,7 @@
       color: $docufiel-green-color;
       font-weight: 400;
       line-height: 1.5;
+      font-family: 'Cabin', sans-serif;
     }
   }
 
