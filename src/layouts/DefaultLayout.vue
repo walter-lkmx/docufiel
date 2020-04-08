@@ -16,8 +16,23 @@
     <slot/>
     <simple-footer class="footer">
       <div>
-        <a href="/legal/privacidad">Políticas de privacidad</a>
-        <a href="/legal/terminos-condiciones">Términos y condiciones</a>
+        <g-image src="~/assets/images/docufiel-footer.png" alt="Docufiel"></g-image>
+        <div>
+          <p>Compañía</p>
+          <a>Nosotros</a>
+          <a>Publicaciones</a>
+          <a>Blog</a>
+        </div>
+        <div>
+          <p>Soporte</p>
+          <a>NOM-151-SCFI-2016</a>
+          <a>FAQ</a>
+        </div>
+        <div>
+          <p>Legal</p>
+          <a href="/legal/terminos-condiciones">Términos y condiciones</a>
+          <a href="/legal/privacidad">Políticas de privacidad</a>
+        </div>
       </div>
     </simple-footer>
   </div>
