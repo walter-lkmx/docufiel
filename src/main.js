@@ -65,10 +65,4 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'
   })
-
-  head.link.push({
-    type: 'text/javascript',
-    href: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyA7XPWCbT1042VI_Jv0XIQFVVr3YGHICQg'
-  })
-
 }
