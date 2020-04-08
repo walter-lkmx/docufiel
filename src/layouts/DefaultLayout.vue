@@ -42,6 +42,9 @@
 
     display: grid;
     grid-template-rows: 1fr min-content;
+    .header__actions {
+      display:none;
+    }
     .footer {
       a {
         display: block;

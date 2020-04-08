@@ -113,7 +113,7 @@
         align-self: center;
 
         &__primary {
-          justify-content: center;
+          justify-content: $header-nav-primary-justify;
           display: grid;
           grid-auto-flow: column;
           grid-template-columns: repeat(auto-fit, rem($header-nav-items-width));

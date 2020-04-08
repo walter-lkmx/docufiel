@@ -1,7 +1,7 @@
 ---
 
 title: Digitalización de documentos 
-layout: ~/layouts/pages/BookPage
+layout: ~/layouts/pages/BookPage 
 
 ---
 ![Digitalización](./img/sample1.jpg)

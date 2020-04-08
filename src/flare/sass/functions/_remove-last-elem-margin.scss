@@ -1,0 +1,6 @@
+@mixin remove-last-elem-margin {
+  /* Removes margin bottom from last child to prevent double margin */
+  :last-child {
+    margin-bottom: 0;
+  }
+}
