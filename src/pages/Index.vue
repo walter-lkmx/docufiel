@@ -116,7 +116,7 @@
 <script>
   export default {
     metaInfo: {
-      title: 'Hello, world!'
+      title: 'Digitaliza tus documentos y accede a ellos en cualquier lugar'
     }
   }
 </script>
@@ -138,7 +138,7 @@
 }
 
 .text-banner-no-column {
-  padding: rem(88px) 0;
+  padding: $gutter-xxxlarge 0;
 
   h1 {
     display: block;
@@ -146,8 +146,8 @@
     color: $docufiel-green-color;
     font-weight: 400;
     line-height: 1.5;
-    font-size: rem(32px);
-    text-transform: capitalize;
+    font-size: $h2-text-size;
+    text-transform: initial;
 
     span {
       display: block;
@@ -157,17 +157,33 @@
 
 .beneficios {
   &__title {
-    margin-bottom: rem(64px);
-    font-weight: 400;
+    margin-bottom: $gutter-xxxlarge;
+    font-weight: 700;
     color: $docufiel-blue-color;
-    // padding-bottom: rem(88px);
+  }
+}
+
+.three-columns {
+  &/deep/.card-holder__content {
+    .simple-card {
+      img {
+
+        align-self: center;
+      }
+
+      h4 {
+        align-self: center;
+        margin-bottom: 0;
+      }
+    }
+
   }
 }
 
 .como-funciona {
   &__title {
-    margin-bottom: rem(32px);
-    font-weight: 400;
+    margin-bottom: $gutter-xlarge;
+    font-weight: 700;
     color: $docufiel-blue-color;
   }
 
@@ -175,7 +191,7 @@
     color: $docufiel-gray-color;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: rem(64px);
+    margin-bottom: $gutter-xxxlarge;
 
     span {
       display: block;
@@ -183,20 +199,40 @@
   }
 }
 
+
 .four-columns {
-    img {
-    width: auto;
-    height: rem(124px);
+  margin-bottom: $gutter-xxxlarge;
+  &/deep/.card-holder__content {
+    grid-template-columns: $four-columns;
+
+    .simple-card {
+      // grid-row-gap: rem(16px);
+      grid-template-rows: $card-template-rows;
+      text-align: center;
+      justify-content: center;
+
+      img {
+        width: auto;
+        height: rem(116px);
+        margin: 0 auto;
+        align-self: center;
+      }
+
+      h4 {
+        align-self: center;
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
 .contact {
   &__logo-icon {
-    margin-bottom: rem(44px);
+    margin-bottom: $gutter-xlarge;
   }
 
   h2 {
-    margin: 0 0 rem(44px) 0;
+    margin: 0 0 $gutter-xlarge 0;
     color: $docufiel-blue-color;
 
     span {
