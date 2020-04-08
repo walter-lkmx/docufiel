@@ -7,6 +7,10 @@ import DefaultPage from '~/layouts/pages/DefaultPage.vue';
 import SingleColumnPage from '~/layouts/pages/SingleColumnPage.vue';
 import BookPage from '~/layouts/pages/BookPage.vue'
 
+// docufiel components
+import TwinColumns from '~/components/columns/TwinColumns.vue';
+import TextBannerNoColumn from '~/components/blocks/TextBannerNoColumn.vue';
+
 // Flare components
 // Columns
 import SingleColumn from '~/flare/components/columns/SingleColumn.vue';
@@ -36,17 +40,26 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.component('SingleColumn', SingleColumn);
   Vue.component('SlimColumn', SlimColumn);
-  Vue.component('NoColumn', NoColumn);
-
+  
   Vue.component('SimpleHeader', SimpleHeader);
   Vue.component('SimpleFooter', SimpleFooter);
   Vue.component('SimpleHero', SimpleHero);
-
+  
   Vue.component('SimpleCard', SimpleCard);
   Vue.component('CardHolder', CardHolder);
   Vue.component('TextBanner', TextBanner);
-
+  Vue.component('TextBannerNoColumn', TextBannerNoColumn);
+  
   Vue.component('SimpleNavItem', SimpleNavItem);
+  
+  // docufiel components
+  Vue.component('TwinColumns', TwinColumns);
+  Vue.component('NoColumn', NoColumn);
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'
+  })
 
   head.link.push({
     rel: 'stylesheet',
