@@ -61,7 +61,6 @@
 <style lang="scss" scoped>
   .default-layout {
     height: 100%;
-
     display: grid;
     grid-template-rows: 1fr min-content;
     .header__actions {
@@ -86,11 +85,16 @@
           }
         }
       }
+      h3 {
+        color: white;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
       a {
         display: block;
         color: white;
         text-decoration: none;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
       }
     }
   }
