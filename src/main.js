@@ -61,4 +61,9 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'
   })
 
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'
+  })
+
 }
