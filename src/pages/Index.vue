@@ -229,7 +229,6 @@
 
 .text-banner-no-column {
   padding: $gutter-xxxlarge 0;
-
   h1 {
     display: block;
     margin: 0 auto;
@@ -238,9 +237,14 @@
     line-height: 1.5;
     font-size: $h2-text-size;
     text-transform: initial;
-
+    @include respond-to("small and down") {
+      font-size: $h3-text-size;
+    }
     span {
       display: block;
+      @include respond-to("medium and down") {
+        display: inline;
+      }
     }
   }
 }
@@ -338,6 +342,16 @@
   }
   &/deep/.twins-column--end {
     width: 100%;
+  }
+
+  @include respond-to("small and down") {
+    .twins-section {
+      .twins-column {
+        &--start {
+          padding: 3rem;
+        }
+      }
+    }
   }
 }
 
