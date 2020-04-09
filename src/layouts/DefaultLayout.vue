@@ -64,7 +64,18 @@
     display: grid;
     grid-template-rows: 1fr min-content;
     .header__actions {
-      display:none;
+      display: none;
+    }
+    .header {
+      &__nav-toggle {
+        @include respond-to("medium and down") {
+          padding-left: 1rem;
+          img {
+            height: $gutter-large;
+            width: auto;
+          }
+        }
+      }
     }
     .footer {
       .container {
@@ -77,11 +88,28 @@
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 1rem;
+          @include respond-to("small and down") {
+            grid-template-columns: 100%;
+            grid-template-rows: auto auto auto;
+          }
         }
         .social-media {
           img {
             display: inline;
             margin-left: 1rem;
+          }
+          @include respond-to("small and down") {
+            grid-template-columns: 100%;
+            padding-top: 1rem;
+          }
+        }
+        @include respond-to("small and down") {
+          text-align: center;
+          grid-template-columns: 100%;
+          grid-template-rows: 50px 1fr 50px;
+          grid-gap: 0;
+          img {
+            margin: 0 auto;
           }
         }
       }

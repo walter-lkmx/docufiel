@@ -67,6 +67,15 @@
         }
       }
 
+      @include respond-to("medium and down") {
+        &--start {
+          padding: 3rem;
+        }
+        &--end {
+          height: 557.5px;
+        }
+      }
+
       @include remove-last-elem-margin();
     }
   }
