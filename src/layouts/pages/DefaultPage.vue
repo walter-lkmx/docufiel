@@ -15,6 +15,12 @@
       padding-top: $page-mobile-padding-top;
       padding-bottom: $page-mobile-padding-bottom;
     }
+
+    @include respond-to("medium and down") {
+      padding-left: $gutter;
+      padding-right: $gutter;
+    }
+
     @include respond-to("medium") {
       margin-top: $page-tablet-margin-top;
       padding-top: $page-tablet-padding-top;
