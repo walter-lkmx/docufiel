@@ -72,7 +72,7 @@
           padding: 3rem;
         }
         &--end {
-          height: 557.5px;
+          height: $radius-xxxlarge * 5;
         }
       }
 
