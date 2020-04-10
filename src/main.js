@@ -10,6 +10,7 @@ import BookPage from '~/layouts/pages/BookPage.vue'
 // docufiel components
 import TwinColumns from '~/components/columns/TwinColumns.vue';
 import TextBannerNoColumn from '~/components/blocks/TextBannerNoColumn.vue';
+import CardHolderMixedColumns from '~/components/blocks/CardHolderMixedColumns.vue';
 
 // Flare components
 // Columns
@@ -55,6 +56,7 @@ export default function (Vue, { router, head, isClient }) {
   // docufiel components
   Vue.component('TwinColumns', TwinColumns);
   Vue.component('NoColumn', NoColumn);
+  Vue.component('CardHolderMixedColumns', CardHolderMixedColumns);
 
   head.link.push({
     rel: 'stylesheet',

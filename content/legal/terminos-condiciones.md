@@ -5,6 +5,8 @@ layout: ~/layouts/pages/BookPage
 
 ---
 
+### Términos y condiciones
+
 **PRIMERO.- USUARIOS.-** Los usuarios son las sociedades tanto mercantiles como civiles, todos los comerciantes, y personas físicas, que deseen usar la plataforma **DOCUFIEL** para la administración de sus documentos públicos y privados. Siendo estos usuarios, los que están sujetos a los presentes términos legales.
 
 **SEGUNDO.- DERECHO A UTILIZACIÓN DE LA PLATAFORMA.-** Los usuarios tendrán derecho a utilizar **DOCUFIEL**, siempre y cuando se encuentren al corriente en el pago de la mensualidad u anualidad, en su caso, por el uso del servicio; dicho pago será por adelantado. En el caso, de que transcurrido uno o más años, sin la reactivación del servicio, se cobrará al usuario únicamente, la suma de los años pendientes de pago. La información y documentos no es borrada de nuestros servidores, aun cuando no sea pagado el servicio; lo único que se cancela es el acceso a los usuarios a la plataforma.

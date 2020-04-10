@@ -32,7 +32,7 @@
           <div class="link-item">
             <h3>Legal</h3>
             <a href="/legal/terminos-condiciones">Términos y condiciones</a>
-            <a href="/legal/privacidad">Políticas de privacidad</a>
+            <a href="/legal/privacidad">Aviso de privacidad</a>
           </div>
         </div>
         <div class="social-media">
@@ -69,7 +69,7 @@
     .header {
       &__nav-toggle {
         @include respond-to("medium and down") {
-          padding-left: 1rem;
+          padding-left: $gutter;
           img {
             height: $gutter-large;
             width: auto;
@@ -85,12 +85,12 @@
         display: grid;
         grid-template-columns: 0.5fr 1fr 0.5fr;
         grid-template-rows: 100%;
-        grid-gap: 1rem;
+        grid-gap: $gutter;
         text-align: left;
         .link-block {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: 1rem;
+          grid-gap: $gutter;
           @include respond-to("small and down") {
             grid-template-columns: 100%;
             grid-template-rows: auto auto auto;
@@ -99,11 +99,11 @@
         .social-media {
           img {
             display: inline;
-            margin-left: 1rem;
+            margin-left: $gutter;
           }
           @include respond-to("small and down") {
             grid-template-columns: 100%;
-            padding-top: 1rem;
+            padding-top: $gutter;
           }
         }
         @include respond-to("small and down") {
@@ -118,7 +118,7 @@
       }
       h3 {
         color: white;
-        margin-bottom: 1rem;
+        margin-bottom: $gutter;
         font-weight: 700;
       }
       a {

@@ -1,10 +1,8 @@
 <template>
   <default-layout>
     <default-page>
-
       <simple-hero>
       </simple-hero>
-
       <text-banner-no-column class="text-banner-no-column">
         <h1 class=""><span>Tus documentos digitalizados son comparados en con el original para verificar</span> <span>su fidelidad y así mantener su valor probatorio. Esta verificación es</span>
           <span>certificada por la Secretaría de Economía y conforme</span> <span>a la Norma Oficial Mexicana NOM-151-SCFI-2016.</span></h1>
@@ -14,7 +12,7 @@
         <h2 class="beneficios__title">Beneficios de Docufiel</h2>
       </text-banner>
       
-      <card-holder class="three-columns">
+      <card-holder-mixed-columns class="three-columns">
         <simple-card>
           <g-image src="~/assets/images/reduccion-costos.png" alt="Reducción de costos"></g-image>
           <h4>Reducción de costos de almacenamiento</h4>
@@ -54,14 +52,14 @@
           <h4>Mejora de tiempos</h4>
           <p>La automatización de los procesos de cotejo y almacenamiento electrónico controlados por un PSC acreditado como TLA, aumenta la eficiencia de las compañías en términos de productividad y rendimiento relacionados con la gestión interna de documentos.</p>
         </simple-card>
-      </card-holder>
+      </card-holder-mixed-columns>
 
       <text-banner class="como-funciona">
         <h2 class="como-funciona__title">¿Cómo funciona?</h2>
         <h3 class="como-funciona__description">Ofrecemos un servicio que permite la destrucción legal de grandes <span>lotes de documentos en papel, conforme a siguiente esquema:</span></h3>
       </text-banner>
 
-      <card-holder class="four-columns">
+      <card-holder-mixed-columns class="four-columns">
         <simple-card>
           <g-image src="~/assets/images/documentos.png" alt="Documentos"></g-image>
           <h4>Documentos</h4>
@@ -82,7 +80,7 @@
           <h4>Certificación</h4>
           <p>Emisión de constancia de conservación a aquellas digitalizaciones que aprueben el proceso de cotejo.</p>
         </simple-card>
-      </card-holder>
+      </card-holder-mixed-columns>
 
       <twin-columns class="contact">
         <template v-slot:left>
@@ -117,107 +115,16 @@
   export default {
     metaInfo: {
       title: 'Digitaliza tus documentos y accede a ellos en cualquier lugar'
-    },
-    data () { return {  }
-  function initMap() {
-        // Styles a map in night mode.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.674, lng: -73.945},
-          zoom: 12,
-          styles: [
-            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-            {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{color: '#263c3f'}]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#6b9a76'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{color: '#38414e'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#212a37'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#9ca5b3'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{color: '#746855'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#1f2835'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#f3d19c'}]
-            },
-            {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{color: '#2f3948'}]
-            },
-            {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{color: '#17263c'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#515c6d'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{color: '#17263c'}]
-            }
-          ]
-        });
-      }
-  }
+    }
   }
 </script>
 
 
 <style lang="scss" scoped>
-.default-page {
-  padding-bottom: 0;
-}
 
 .default-page {
   margin-top: 0;
+  padding: 0;
   padding-top: $header-height;
 }
 
@@ -229,6 +136,9 @@
 
 .text-banner-no-column {
   padding: $gutter-xxxlarge 0;
+  @include respond-to("small and down") {
+    padding: $gutter-xlarge $gutter-small;
+  }
   h1 {
     display: block;
     margin: 0 auto;
@@ -238,7 +148,7 @@
     font-size: $h2-text-size;
     text-transform: initial;
     @include respond-to("small and down") {
-      font-size: $h3-text-size;
+      font-size: $h4-text-size;
     }
     span {
       display: block;
@@ -254,12 +164,21 @@
     margin-bottom: $gutter-xxxlarge;
     font-weight: 700;
     color: $docufiel-blue-color;
+    @include respond-to("small and down") {
+      margin-bottom: 0;
+    } 
   }
 }
 
 .three-columns {
+  @include respond-to("small and down") {
+    padding: $gutter-xlarge $gutter-small;
+  }
   &/deep/.card-holder__content {
     .simple-card {
+      @include respond-to("small and down") {
+        grid-row-gap: $gutter;
+      }
       img {
 
         align-self: center;
@@ -279,6 +198,9 @@
     margin-bottom: $gutter-xlarge;
     font-weight: 700;
     color: $docufiel-blue-color;
+    @include respond-to("small and down") {  
+      margin-bottom: 0;
+    }
   }
 
   &__description {
@@ -286,9 +208,17 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: $gutter-xxxlarge;
+    @include respond-to("small and down") {
+      margin-bottom: 0;
+      padding: $gutter-xlarge $gutter-small;
+      font-size: $h4-text-size;
+    }
 
     span {
       display: block;
+      @include respond-to("small and down") {
+        display: inline;
+      }
     }
   }
 }
@@ -297,17 +227,15 @@
 .four-columns {
   margin-bottom: $gutter-xxxlarge;
   &/deep/.card-holder__content {
-    grid-template-columns: $four-columns;
 
     .simple-card {
-      // grid-row-gap: rem(16px);
       grid-template-rows: $card-template-rows;
       text-align: center;
       justify-content: center;
 
       img {
         width: auto;
-        height: rem(116px);
+        height: rem(88px);
         margin: 0 auto;
         align-self: center;
       }
@@ -339,6 +267,7 @@
   li {
     list-style-type: none;
     margin-bottom: rem(0px);
+    margin-left: rem(0px);
   }
   &/deep/.twins-column--end {
     width: 100%;

@@ -5,26 +5,104 @@ layout: ~/layouts/pages/BookPage
 
 ---
 
-**PRIMERO.- USUARIOS.-** Los usuarios son las sociedades tanto mercantiles como civiles, todos los comerciantes, y personas físicas, que deseen usar la plataforma **DOCUFIEL** para la administración de sus documentos públicos y privados. Siendo estos usuarios, los que están sujetos a los presentes términos legales.
+### AVISO DE PRIVACIDAD
 
-**SEGUNDO.- DERECHO A UTILIZACIÓN DE LA PLATAFORMA.-** Los usuarios tendrán derecho a utilizar **DOCUFIEL**, siempre y cuando se encuentren al corriente en el pago de la mensualidad u anualidad, en su caso, por el uso del servicio; dicho pago será por adelantado. En el caso, de que transcurrido uno o más años, sin la reactivación del servicio, se cobrará al usuario únicamente, la suma de los años pendientes de pago. La información y documentos no es borrada de nuestros servidores, aun cuando no sea pagado el servicio; lo único que se cancela es el acceso a los usuarios a la plataforma.
 
-**TERCERO.- MANEJO DE LA INFORMACIÓN.-** La información contenida en la plataforma **DOCUFIEL**, es y seguirá siendo propiedad de los usuarios; de ninguna manera se considerará propiedad de **DOCUFIEL**. Asimismo, **DOCUFIEL** no consulta la información contenida en las carpetas de los usuarios. 
+**Responsable de la protección de sus datos personales**
 
-La información una vez en las carpetas de **DOCUFIEL** no podrá ser eliminada por sus usuarios, esto para protección de la mayoría. Para eliminar un archivo, se requerirá autorización de **DOCUFIEL**. Este procedimiento se realiza enviando un correo electrónico a info@docufiel.com, y se pondrá en contacto un asesor para iniciar el procedimiento.
+**DOCUFIEL**, con domicilio en Avenida Ryerson 454, Zona Centro, Ensenada, Baja California, 22800; es responsable del tratamiento de sus datos personales. 
 
-**CUARTO.- PROTECCIÓN DE INFORMACIÓN EN BENEFICIO DE LOS USUARIOS.- DOCUFIEL,** busca siempre ser una plataforma que permite el correcto y práctico intercambio, notificación y almacenamiento de información en beneficio de los usuarios; por lo que, protege la información de la eliminación y modificación no consentida.
+**¿Cómo contactarnos?**
 
-**QUINTO.- COBRO POR EL USO DE LA PLATAFORMA.-** **DOCUFIEL** utilizar los servicios de**CONEKTA** para realizar los cobros anuales por el uso de los servicios; por lo que, no es responsable de cualquier queja respecto al pago del servicio. 
+Correo electrónico: **info@docufiel.com**
+Teléfono: (664) 3647961
 
-El pago del servicio de uso no será reembolsable por ningún motivo. 
+**¿Para qué fines recabamos y utilizamos sus datos personales?**
 
-**SEXTO.- PROHIBICIONES.-** Queda estrictamente prohibido el almacenamiento de documentos y/o archivos que no sean propiedad de los usuarios; así como, cualquier archivo que sea contrario a leyes y a las buenas costumbres; por ejemplo, pornografía, información de tercera personas ajenas a las partes. Cualquier violación a lo establecido a esta cláusula será responsabilidad civil y penal única y exclusivamente del usuario.
+Sus datos personales serán utilizados para las siguientes finalidades:
 
-**SÉPTIMO.- MAL USO DE LOS PROPIOS USUARIOS.-** Cada cuenta podrá tener uno o varios usuarios; por lo que, **DOCUFIEL** no se hace responsable del mal uso de la información por parte de uno de sus usuarios autorizados. El uso de plataforma es únicamente responsabilidad de sus usuarios.
+1. Proveer los servicios requeridos por usted;
+2. Informar sobre cambios o nuevos productos o servicios que estén relacionados con el contratado o adquirido por el cliente;
+3. Dar cumplimiento a obligaciones contraídas con nuestros clientes;
+4. Evaluar la calidad del servicio, y
+5. Realizar estudios internos sobre hábitos de consumo.
 
-**OCTAVO.- RESPONSABILIDAD DE DOCUFIEL.- DOCUFIEL** no se hace responsable de cualquier perdida de información, ya sea su responsabilidad o no. **DOCUFIEL**, busca siempre ofrecer siempre el mejor servicio; por lo que, toda su actuación siempre se considerará de buena fe. 
+**¿Qué datos personales obtenemos y de dónde?**
 
-**NOVENO.- VIGENCIA.-**Los términos y condiciones estarán vigentes a partir de su fecha de publicación y siempre será aplicable la versión de mayor actualización. En consideración a lo anterior, deberás tomar en cuenta la fecha de publicación. Es responsabilidad del usuario corroborar si los términos y condiciones han sido actualizados; **DOCUFIEL** siempre informará mediante correo electrónico o en el sitio si los términos y condiciones van a ser o han sido actualizados.
+Para las finalidades señaladas en el presente aviso de privacidad, podemos recabar sus datos personales de distintas formas: cuando usted nos los proporciona directamente; cuando visita nuestro sitio de Internet o utiliza nuestros servicios en línea, y cuando obtenemos información a través de otras fuentes que están permitidas por la ley.
 
-**DÉCIMO.- JURISDICCIÓN.**Los términos y condiciones se sujetan a las leyes mexicanas en particular al Código Civil Federal. Los usuarios sin importar sus domicilios presentes o futuros, por el simple hecho de aceptar estos términos y condiciones se sujetan a la jurisdicción y competencia de los tribunales del Ensenada, Baja California, México.
+**Datos personales que recabamos de forma directa**
+
+Recabamos sus datos personales de forma directa cuando usted mismo nos los proporciona por diversos medios, como cuando participa en nuestras promociones o nos da información con objeto de que le prestemos un servicio, y visita nuestro sitio. Los datos que obtenemos por este medio pueden ser, entre otros:
+
+Nombre completo
+Correo electrónico
+Domicilio
+Teléfono de contacto
+
+**Datos personales que recabamos a través de otras fuentes**
+
+Podemos obtener información de usted de otras fuentes permitidas por la ley, tales como los directorios telefónicos o laborales. Los datos que obtenemos por estos medios pueden ser, entre otros:
+
+Nombre completo
+Correo electrónico
+Domicilio
+Teléfono de contacto
+
+Le informamos que para la prestación de nuestros servicios, No serán recabados y tratados datos personales sensibles.
+
+**¿Cómo puede limitar el uso o divulgación de sus datos personales?**
+
+Usted puede dejar de recibir mensajes promocionales por correo electrónico o celular enviando un correo electrónico a **info@docufiel.com**, con la palabra “BAJA”.
+
+**¿Cómo acceder o rectificar sus datos personales o cancelar u oponerse a su uso?**
+
+Usted tiene derecho de acceder a sus datos personales que poseemos y a los detalles del tratamiento de los mismos, así como a rectificarlos en caso de ser inexactos o incompletos; cancelarlos cuando considere que no se requieren para alguna de las finalidades señalados en el presente aviso de privacidad, estén siendo utilizados para finalidades no consentidas o haya finalizado la relación contractual o de servicio, o bien, oponerse al tratamiento de los mismos para fines específicos.
+
+Los mecanismos que se han implementado para el ejercicio de dichos derechos son a través de la presentación de la solicitud respectiva en:
+
+Enviar un correo a **info@docufiel.com**.
+
+Su solicitud deberá contener la siguiente información:
+Manifestar su nombre completo, teléfono de contacto, y describir su solicitud. 
+
+Los plazos para atender su solicitud son los siguientes:
+El plazo de atención es de 24 a 48 horas. 
+
+Para mayor información, favor de comunicarse al departamento de privacidad **info@docufiel.com**, o visitar nuestra página de Internet sección aviso de privacidad.
+
+**¿Cómo puede revocar su consentimiento para el tratamiento de sus datos?**
+
+En todo momento, usted podrá revocar el consentimiento que nos ha otorgado para el tratamiento de sus datos personales, a fin de que dejemos de hacer uso de los mismos. Para ello, es necesario que presente su petición en **info@docufiel.com**.
+
+Su petición deberá ir acompañada de la siguiente información: Su petición formal de revocación de consentimiento. 
+
+En un plazo máximo de 24 a 48 horas atenderemos su petición y le informaremos sobre la procedencia de la misma a través de un correo electrónico y/o llamada telefónica. 
+
+Nos comprometemos a no transferir su información personal a terceros sin su consentimiento, salvo las excepciones previstas en el artículo 37 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, así como a realizar esta transferencia en los términos que fija esa ley.
+
+Si usted no manifiesta su oposición, enviando un correo electrónico a **info@docufiel.com**, para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.
+
+**Modificaciones al aviso de privacidad**
+
+Nos reservamos el derecho de efectuar en cualquier momento modificaciones o actualizaciones al presente aviso de privacidad, para la atención de novedades legislativas, políticas internas o nuevos requerimientos para la prestación u ofrecimiento de nuestros servicios o productos.
+
+Estas modificaciones estarán disponibles al público a través de los siguientes medios: (i) en nuestra página de Internet [sección aviso de privacidad]; (ii) o se las haremos llegar al último correo electrónico que nos haya proporcionado.
+
+**Uso de cookies y web beacons**
+
+Las cookies son archivos de texto que son descargados automáticamente y almacenados en el disco duro del equipo de cómputo del usuario al navegar en una página de Internet específica, que permiten recordar al servidor de Internet algunos datos sobre este usuario, entre ellos, sus preferencias para la visualización de las páginas en ese servidor, nombre y contraseña.
+
+Por su parte, las web beacons son imágenes insertadas en una página de Internet o correo electrónico, que puede ser utilizado para monitorear el comportamiento de un visitante, como almacenar información sobre la dirección IP del usuario, duración del tiempo de interacción en dicha página y el tipo de navegador utilizado, entre otros.
+
+Le informamos que utilizamos cookies y web beacons para obtener información personal de usted, como la siguiente:
+
+- Su tipo de navegador y sistema operativo.
+- Las páginas de Internet que visita.
+- Los vínculos que sigue.
+- La dirección IP.
+- El sitio que visitó antes de entrar al nuestro.
+
+**¿Ante quién puede presentar sus quejas y denuncias por el tratamiento indebido de sus datos personales?**
+
+Si usted considera que su derecho de protección de datos personales ha sido lesionado por alguna conducta de nuestros empleados o de nuestras actuaciones o respuestas, presume que en el tratamiento de sus datos personales existe alguna violación a las disposiciones previstas en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, podrá interponer la queja o denuncia correspondiente ante el IFAI, para mayor información visite www.ifai.org.mx.
