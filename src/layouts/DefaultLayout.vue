@@ -19,15 +19,10 @@
         <g-image src="~/assets/images/docufiel-footer.png" alt="Docufiel"></g-image>
         <div class="link-block">
           <div class="link-item">
-            <h3>Compañía</h3>
-            <a>Nosotros</a>
-            <a>Publicaciones</a>
-            <a>Blog</a>
-          </div>
-          <div class="link-item">
-            <h3>Soporte</h3>
-            <a>NOM-151-SCFI-2016</a>
-            <a>FAQ</a>
+            <h3>Servicios</h3>
+            <a href="/digitalizacion-documentos">Digitalización de documentos</a>
+            <a href="/valuacion-activos">Valuación de activos</a>
+            <a href="/inventario-activos">Inventario de activos</a>
           </div>
           <div class="link-item">
             <h3>Legal</h3>
@@ -89,7 +84,7 @@
         text-align: left;
         .link-block {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
           grid-gap: $gutter;
           @include respond-to("small and down") {
             grid-template-columns: 100%;
