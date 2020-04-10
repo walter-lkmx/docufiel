@@ -263,15 +263,20 @@
       font-weight: 400;
     }
   }
+    h3 {
+    color: white;
+    }
+    li {
+      color: white;
+      list-style-type: none;
+      margin-bottom: rem(0px);
+      margin-left: rem(0px);
+    }
 
-  li {
-    list-style-type: none;
-    margin-bottom: rem(0px);
-    margin-left: rem(0px);
-  }
-  &/deep/.twins-column--end {
-    width: 100%;
-  }
+    &/deep/.twins-column--end {
+      width: 100%;
+    }
+
 }
 
 </style>
