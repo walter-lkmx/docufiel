@@ -76,6 +76,9 @@
           }
         }
       }
+      @include respond-to("medium and down") {
+        padding: 0 $gutter;
+      }
     }
     .footer {
       .container {

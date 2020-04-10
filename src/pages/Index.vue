@@ -343,16 +343,6 @@
   &/deep/.twins-column--end {
     width: 100%;
   }
-
-  @include respond-to("small and down") {
-    .twins-section {
-      .twins-column {
-        &--start {
-          padding: 3rem;
-        }
-      }
-    }
-  }
 }
 
 </style>
