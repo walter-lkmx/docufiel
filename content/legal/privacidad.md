@@ -5,7 +5,7 @@ layout: ~/layouts/pages/BookPage
 
 ---
 
-### AVISO DE PRIVACIDAD
+### Aviso de privacidad
 
 
 **Responsable de la protección de sus datos personales**
