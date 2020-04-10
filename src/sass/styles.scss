@@ -13,5 +13,6 @@ p {
 
 li {
   list-style-type: circle;
-  margin-bottom: rem(16px);
+  margin-bottom: $gutter;
+  margin-left: $gutter;
 }
