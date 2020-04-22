@@ -14,10 +14,8 @@
         </simple-card>
         <simple-card>
           <h4>Inventario y conciliación de activos, etiquetado y plaqueo de activos</h4>
-          <p>
-            <span>Tener un buen y completo inventario brinda información contable confiable para la toma de decisiones y permite establecer planes de optimización y gestión de usos de activos. </span>
-            <span>El inventario se puede realizar sobre todos los activos identificables de la compañía: propiedades inmobiliarias, instalaciones, maquinarias, equipos de cómputo, muebles y útiles, accesorios y enseres diversos, obras civiles, existencias, entre otros.</span>
-          </p>
+            <p>Tener un buen y completo inventario brinda información contable confiable para la toma de decisiones y permite establecer planes de optimización y gestión de usos de activos. </p>
+            <p>El inventario se puede realizar sobre todos los activos identificables de la compañía: propiedades inmobiliarias, instalaciones, maquinarias, equipos de cómputo, muebles y útiles, accesorios y enseres diversos, obras civiles, existencias, entre otros.</p>
         </simple-card>
         <simple-card>
           <h4>Valuación de activos tangibles e intangibles</h4>
@@ -26,7 +24,7 @@
       </card-holder-mixed-columns>
 
       <text-banner class="beneficios">
-        <h2 class="beneficios__title">Beneficios de Docufiel</h2>
+        <h2 class="beneficios__title">Ventajas de los servicios de DOCUFIEL</h2>
       </text-banner>
       
       <card-holder-mixed-columns class="three-columns">
