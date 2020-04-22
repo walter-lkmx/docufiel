@@ -4,53 +4,60 @@
       <simple-hero>
       </simple-hero>
       <text-banner-no-column class="text-banner-no-column">
-        <h1 class=""><span>Tus documentos digitalizados son comparados en con el original para verificar</span> <span>su fidelidad y así mantener su valor probatorio. Esta verificación es</span>
-          <span>certificada por la Secretaría de Economía y conforme</span> <span>a la Norma Oficial Mexicana NOM-151-SCFI-2016.</span></h1>
+          <h1 class=""><span>En DOCUFIEL, brindamos los servicios de Digitalización de documentos;</span> <span>Inventario y conciliación de activos. Etiquetado y plaqueo de activos;</span> <span>y Valuación de activos tangibles e intangibles.</span></h1>
       </text-banner-no-column>
       
+      <card-holder-mixed-columns class="three-columns no-icons">
+        <simple-card>
+          <h4>Digitalización de documentos</h4>
+          <p>Digitalizamos todos los tamaños de documentos en forma masiva, como carta, oficio y doble carta; así como tamaños especiales, ya sean pedimentos, facturas cheques, boletos, entre otros. Así mismo, nos especializamos en la digitalización de todo tipo de planos arquitectónicos, industriales, eléctricos, entre otros.</p>
+        </simple-card>
+        <simple-card>
+          <h4>Inventario y conciliación de activos, etiquetado y plaqueo de activos</h4>
+          <p>
+            <span>Tener un buen y completo inventario brinda información contable confiable para la toma de decisiones y permite establecer planes de optimización y gestión de usos de activos. </span>
+            <span>El inventario se puede realizar sobre todos los activos identificables de la compañía: propiedades inmobiliarias, instalaciones, maquinarias, equipos de cómputo, muebles y útiles, accesorios y enseres diversos, obras civiles, existencias, entre otros.</span>
+          </p>
+        </simple-card>
+        <simple-card>
+          <h4>Valuación de activos tangibles e intangibles</h4>
+          <p>Una correcta valoración contable de los activos en el balance de las compañías es clave desde un punto de vista financiero y fiscal. Valuamos todo tipo de activos, maquinaria y equipo, inmuebles, intangibles, entre otros.</p>
+        </simple-card>
+      </card-holder-mixed-columns>
+
       <text-banner class="beneficios">
         <h2 class="beneficios__title">Beneficios de Docufiel</h2>
       </text-banner>
       
       <card-holder-mixed-columns class="three-columns">
         <simple-card>
-          <g-image src="~/assets/images/reduccion-costos.png" alt="Reducción de costos"></g-image>
-          <h4>Reducción de costos de almacenamiento</h4>
-          <p>El servicio permite mejorar la organización y gestión de las presentaciones digitales cotejadas según
-          criterios de almacenamiento electrónico ocasionando una reducción de los costos derivados del almacenamiento
-          físico.</p>
-        </simple-card>
-
-        <simple-card>
-          <g-image src="~/assets/images/destruccion-legal.png" alt="Nav Destrucción legal"></g-image>
-          <h4>Destrucción legal de documentos físicos</h4>
-          <p>Los archivos cotejados podrán ser preservados por un PSC bajo las condiciones técnicas de conservación
-          definidas por la Secretaría de Economía permitiendo la destrucción legal de documentos originales en papel.
-          </p>
-        </simple-card>
-
-        <simple-card>
-          <g-image src="~/assets/images/mayor-seguridad.png" alt="Nav Mayor seguridad"></g-image>
-          <h4>Mayor seguridad sobre los documentos</h4>
-          <p>Las digitalizaciones cotejadas son fiel reflejo del contenido original y con plenas garantías de autenticidad e integridad de los datos a lo largo del tiempo.</p>
-        </simple-card>
-
-        <simple-card>
           <g-image src="~/assets/images/validez-juridica.png" alt="Validez jurídica"></g-image>
           <h4>Validez jurídica</h4>
-          <p>El servicio permite equiparar los documentos en soporte físico	 y sus representaciones digitales conforme a la normativa regulada por la Secretaría de Economía, dotando a los archivos digitales cotejadas de validez legal ante cualquier requerimiento de terceros</p>
         </simple-card>
 
         <simple-card>
           <g-image src="~/assets/images/almacenamiento.png" alt="Almacenamiento NOM151"></g-image>
           <h4>Almacenamiento NOM151</h4>
-          <p>Las digitalizaciones cotejadas de los documentos físicos pueden ser conservados bajo un servicio de almacenamiento certificado de larga duración que somete los mensajes de datos y sus constancias NOM151 a permanentes auditorías de conservación.</p>
         </simple-card>
 
         <simple-card>
           <g-image src="~/assets/images/mejora-tiempos.png" alt="Mejora de tiempos"></g-image>
           <h4>Mejora de tiempos</h4>
-          <p>La automatización de los procesos de cotejo y almacenamiento electrónico controlados por un PSC acreditado como TLA, aumenta la eficiencia de las compañías en términos de productividad y rendimiento relacionados con la gestión interna de documentos.</p>
+        </simple-card>
+
+        <simple-card>
+          <g-image src="~/assets/images/reduccion-costos.png" alt="Reducción de costos"></g-image>
+          <h4>Reducción de costos de almacenamiento</h4>
+        </simple-card>
+
+        <simple-card>
+          <g-image src="~/assets/images/destruccion-legal.png" alt="Nav Destrucción legal"></g-image>
+          <h4>Destrucción legal de documentos físicos</h4>
+        </simple-card>
+
+        <simple-card>
+          <g-image src="~/assets/images/mayor-seguridad.png" alt="Nav Mayor seguridad"></g-image>
+          <h4>Mayor seguridad sobre los documentos</h4>
         </simple-card>
       </card-holder-mixed-columns>
 
@@ -114,7 +121,7 @@
 <script>
   export default {
     metaInfo: {
-      title: 'Digitaliza tus documentos y accede a ellos en cualquier lugar'
+      title: 'En esta era digital, ya es tiempo de dejar el papel atrás; en DOCUFIEL llevamos a tu empresa al mundo digital, paperless.'
     }
   }
 </script>
@@ -175,6 +182,9 @@
     padding: $gutter-xlarge $gutter-small;
   }
   &/deep/.card-holder__content {
+    @include respond-to("small and down") {
+      grid-row-gap: $gutter-large * 2;
+    }
     .simple-card {
       @include respond-to("small and down") {
         grid-row-gap: $gutter;
@@ -190,6 +200,19 @@
       }
     }
 
+  }
+}
+
+.no-icons {
+  &/deep/.card-holder__content {
+    @include respond-to("small and down") {
+      grid-gap: $card-holder-gap;
+    }
+    .simple-card {
+      @include respond-to("medium and up") {
+        grid-template-rows: rem($gutter-xxlarge) minmax(120px, auto);
+      }
+    }
   }
 }
 
