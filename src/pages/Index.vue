@@ -27,7 +27,7 @@
         <h2 class="beneficios__title">Ventajas de los servicios de DOCUFIEL</h2>
       </text-banner>
       
-      <card-holder-mixed-columns class="three-columns">
+      <card-holder-mixed-columns class="three-columns center">
         <simple-card>
           <g-image src="~/assets/images/validez-juridica.png" alt="Validez jurídica"></g-image>
           <h4>Validez jurídica</h4>
@@ -133,6 +133,17 @@
   padding-top: $header-height;
 }
 
+.main-nav {
+    &__primary {
+      display: inline-grid;
+      grid-template-columns: auto !important;
+      grid-column-gap: 0;
+      .nav-item {
+        padding-right: $gutter;
+      }
+    }
+  }
+
 .simple-hero {
   background-image: url("../assets/images/hero.jpg");
   background-size: cover;
@@ -198,6 +209,17 @@
       }
     }
 
+  }
+}
+
+.center {
+  .card-holder__content {
+    .simple-card {
+      text-align: center;
+      img {
+        margin: 0 auto;
+      }
+    }
   }
 }
 
