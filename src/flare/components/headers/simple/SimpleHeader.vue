@@ -104,6 +104,7 @@
           display: grid;
           grid-auto-flow: row;
           grid-row-gap: rem($header-nav-spacing);
+          align-items: center;
         }
       }
       @include respond-to("large and up") {
@@ -118,6 +119,7 @@
           grid-auto-flow: column;
           grid-template-columns: repeat(auto-fit, rem($header-nav-items-width));
           grid-column-gap: rem($header-nav-spacing);
+          align-items: center;
         }
 
         &__close-button {

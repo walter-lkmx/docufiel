@@ -11,6 +11,10 @@
         <simple-nav-item :to="item.link" v-for="item in navigation.main" :key="item.key">
           {{item.name}}
         </simple-nav-item>
+        <a class="user-login" href="https://docufiel.com/auth/login">
+          <g-image class="user" src="~/assets/images/account-circle-line.svg" alt="user"></g-image>
+          <span class="login">Login</span>
+        </a>
       </template>
     </simple-header>
     <slot/>
@@ -73,6 +77,25 @@
       }
       @include respond-to("medium and down") {
         padding: 0 $gutter;
+      }
+
+      .user-login {
+          .user{
+            margin-right: .5rem;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        .login{
+          color: $navigation-text-color;
+          display: inline-block;
+          vertical-align: middle;
+          text-decoration: none;
+
+          &:hover {
+            color: $navigation-text-color-hover;
+          }
+
+        }
       }
     }
     .footer {
